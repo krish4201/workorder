@@ -1,0 +1,33 @@
+{
+  "VCAP_SERVICES": {
+    "xsuaa": [
+{
+  "credentials": {
+    "apiurl": "https://api.authentication.ap21.hana.ondemand.com",
+    "clientid": "sb-pm_workorder!t126171",
+    "clientsecret": "6cf33b8b-ff56-4062-b471-9250c6e02f21$fqFqwquf5VMvih8aFvILsaE4X3YtOuthoTL8cGAqoNk=",
+    "credential-type": "binding-secret",
+    "identityzone": "4443d1b2trial",
+    "identityzoneid": "0d448258-7d4c-43d3-a8f5-24a3f4816134",
+    "sburl": "https://internal-xsuaa.authentication.ap21.hana.ondemand.com",
+    "serviceInstanceId": "9b07c7b5-5038-4708-87d6-32b6bef6ce89",
+    "subaccountid": "0d448258-7d4c-43d3-a8f5-24a3f4816134",
+    "tenantid": "0d448258-7d4c-43d3-a8f5-24a3f4816134",
+    "tenantmode": "dedicated",
+    "uaadomain": "authentication.ap21.hana.ondemand.com",
+    "url": "https://4443d1b2trial.authentication.ap21.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiQ0ZE6MgK0DG8MH7Fzt1\n1n7Dna8o38usuqUyLFuu8odTs2Ty5gwYOm+x0D8nEVfKQkwGYIkn2ygELPWdIlMF\neS5Xyx2ulVZZlopUB/3aT9CD9BEycXc/LVG9uCUm7zBGjuAz6BJab/qlyVuSj2pX\nQGfngVcA+4X5kKsLEGqGL9THJwJplFvwPD6CGtwlwafhpJdnpAqCOqYupJDFtecu\nmsaN63fHvH4eq1R/dENUqeRudUmhd5o/rrnKXH25++5z7xDxjx7/Nc7G2ICWU0tg\nH6a10Z5XjHNgRtS/fNApQ7I4kNO1nnBT471O9kArEuuSPocrJFwRvUolfMVbXR8k\nkwIDAQAB\n-----END PUBLIC KEY-----",
+    "xsappname": "pm_workorder!t126171",
+    "zoneid": "0d448258-7d4c-43d3-a8f5-24a3f4816134"
+  }
+}
+    ]
+  },
+  "destinations": [
+    {
+      "name": "srv-api",
+      "url": "http://localhost:4004",
+      "forwardAuthToken": true
+    }
+  ]
+}
